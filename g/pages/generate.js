@@ -21,10 +21,10 @@ export default function FirstPost() {
   } catch (error) {}
   return (
     <>
-      <div class="w-full bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
-        <div class="h-40v w-full imge-bg flex flex-col justify-between p-4"></div>
+      <div className="w-full bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
+        <div className="h-40v w-full imge-bg flex flex-col justify-between p-4"></div>
 
-        <div class="p-4">
+        <div className="p-4">
           <div className="w-full flex justify-center">
             <Image
               src={algo}
@@ -45,12 +45,12 @@ export default function FirstPost() {
             </h3>
           </div>
           <p className="p-10">{mnemonic}</p>
-          <div class="flex items-center justify-between">
-            <h1 class="text-gray-600 font-medium" id="algo"></h1>
-            <button class="text-gray-500 hover:text-gray-900">
+          <div className="flex items-center justify-between">
+            <h1 className="text-gray-600 font-medium" id="algo"></h1>
+            <button className="text-gray-500 hover:text-gray-900">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6"
+                className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -66,10 +66,10 @@ export default function FirstPost() {
           </div>
           <h2 className="flex flex-wrap">Address: {secret_key.addr}</h2>
           <h2>amount: {amount.amount} 0</h2>
-          <p class="text-gray-400 text-sm my-1" id="key"></p>
+          <p className="text-gray-400 text-sm my-1" id="key"></p>
           <span
             id="con"
-            class="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium"
+            className="uppercase text-xs bg-green-50 p-0.5 border-green-500 border rounded text-green-700 font-medium"
           >
             Successfully Generated
           </span>
