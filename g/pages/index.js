@@ -3,7 +3,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import algoSS from "../assets/myAlgo.png";
 import algo from "../assets/algoSH.png";
-import algoSigner from "../assets/algoSigner.png";
+import algoSigner from "../assets/algosigner.png";
 import im from "../assets/add.png";
 import download from "../assets/download.jpg";
 import Link from "next/link";
